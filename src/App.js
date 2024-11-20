@@ -34,7 +34,7 @@ function App() {
 
     try {
       const response = await axios.post(
-        "https://af3c-35-243-183-212.ngrok-free.app/predict",
+        "https://aea9-35-231-229-198.ngrok-free.app/predict",
         formData,
         { headers: { "Content-Type": "multipart/form-data" } }
       );
